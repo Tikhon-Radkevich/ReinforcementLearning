@@ -25,7 +25,7 @@ discount = 0.95
 episodes = 25000
 show_every = 2500
 
-for episode in range(1, episodes):
+for episode in range(1, episodes+1):
     env = gym.make(env_id, render_mode="rgb_array")
     if episode % show_every == 0:
         env = gym.make(env_id, render_mode="human")
