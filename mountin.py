@@ -47,4 +47,4 @@ for episode in range(1, episodes):
     if episode % show_every == 0:
         print(f"Episode {episode} finished after {env._elapsed_steps} timesteps.")
 
-env.close()
+    env.close()
